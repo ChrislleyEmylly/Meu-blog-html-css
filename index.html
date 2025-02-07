@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Curso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Blog da Disciplina de HTML e CSS</h1>
+        </header>
+        <main>
+
+         <article>
+            <h2>Formatação de textos, Cores e Download de fontes</h2>
+            <p class="post-meta">Data: 05/02/2025 | Autora: Chrislley Emylly </p>
+                <p>A formatação de textos, a escolha de cores e o download de fontes são fundamentais para criar uma página web visualmente atraente e legível. Utilizando HTML e CSS, pode-se aplicar estilos aos textos, escolher paletas de cores que se adequem ao tema do seu blog e incorporar fontes personalizadas para melhorar a experiência do usuário. Esses elementos são essenciais para destacar o conteúdo e proporcionar uma navegação agradável. </p>
+                <p>A seguir, apresento os conceitos essenciais sobre a formatação de textos, o uso de cores e a incorporação de fontes, elementos que são fundamentais para aprimorar a estética e a legibilidade do seu blog.</p>
+                
+                <h3>Formatação de Textos:</h3>
+                <p> A formatação de textos em HTML e CSS permite estilizar e organizar o conteúdo textual para torná-lo mais legível e visualmente agradável. Aqui estão alguns elementos e propriedades importantes:</p>
+                
+                <p><strong>Elementos HTML:</strong></p>
+                <p><strong>"h1" a "h6":</strong> Títulos de diferentes níveis.</p>
+                <p><strong>"p":</strong> Parágrafo.</p>
+                <p><strong>"strong" e "em":</strong> Negrito e itálico, respectivamente.</p>
+                <p><strong>"code":</strong> Código fonte.</p>
+                        
+                <p><strong>Propriedades CSS:</strong></p>
+                <p>font-family: Define a família de fontes (ex.: Arial, Verdana).</p>
+                <p>font-size: Define o tamanho da fonte (ex.: 16px, 1.5em).</p>
+                <p>font-weight: Define o peso da fonte (ex.: normal, bold).</p>
+                <p>text-align: Alinha o texto (ex.: left, center, right, justify).</p>
+                <p>line-height: Define a altura da linha (ex.: 1.5, 2).</p>
+               
+                <h3>Cores</h3>
+                <p>As cores são essenciais para destacar elementos e criar uma identidade visual. Elas podem ser definidas de várias formas em CSS:</p>
+                
+                <p><strong>Propriedades CSS:</strong></p>
+                <p>color: Define a cor do texto.</p>
+                <p>background-color: Define a cor de fundo.</p>
+                <p>border-color: Define a cor da borda.</p>
+                
+                <p><strong>Formas de definir cores:</strong></p>
+                <p>Nomes de cores: Ex.: red, blue, green.</p>
+                <p>Código hexadecimal: Ex.: #ff0000 (vermelho).</p>
+                <p>RGB/RGBA: Ex.: rgb(255, 0, 0) ou rgba(255, 0, 0, 0.5).</p>
+                <p>HSL/HSLA: Ex.: hsl(0, 100%, 50%) ou hsla(0, 100%, 50%, 0.5).</p>
+
+                <h3>Download de Fontes</h3>
+                <p>Para personalizar ainda mais o design, você pode fazer download e incluir fontes externas no seu projeto. Uma forma comum de fazer isso é usando o Google Fonts:</p>
+                <p>Escolha uma Fonte: Vá até o site do Google Fonts e escolha uma fonte que deseja usar.</p>
+                <p>Incorpore no HTML: No site do Google Fonts, clique em "Select this style" e copie o link gerado.</p>
+                <p>Cole o link dentro da tag "head" do seu HTML:</p>
+                <pre><code>&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"&gt;</code></pre>
+                
+                <p><strong>Aplique no CSS:</strong>
+                <pre><code>body {
+                    font-family: 'Roboto', sans-serif;
+                }</code></pre>
+            </article>
+            
+
+            <article>
+                <h2>Imagens e Links</h2>
+                <p class="post-meta">Data: 05/02/2025 | Autora: Chrislley Emylly</p>
+                <p>Imagens e links são elementos essenciais para enriquecer qualquer postagem. As imagens ajudam a captar a atenção dos leitores, ilustram pontos importantes e tornam o conteúdo mais envolvente. Já os links proporcionam uma navegação mais interativa, permitindo que os leitores acessem fontes adicionais, artigos relacionados ou qualquer outro recurso relevante. Utilizar imagens de alta qualidade e links bem posicionados pode melhorar significativamente a experiência do usuário e a eficácia da comunicação.</p>
+        
+                <p>Nesta postagem, aprenderemos como inserir imagens e criar links no HTML.</p>
+                <p><strong>Inserindo Imagens no HTML</strong></p>    
+                <p><strong>"img"</strong>: Tag para adicionar imagens.</p>
+                <p><strong>"src"</strong>: Especifica o caminho da imagem.</p>
+                <p><strong>"alt"</strong>: Fornece uma descrição alternativa da imagem, importante para acessibilidade.</p>
+                <p><strong>"width" e "height"</strong>: Definem a largura e a altura da imagem.</p>
+                <p>Exemplo:(img src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="500" height="300")</p>
+
+                <p><strong>Criando Links no HTML</strong></p>
+                <p><strong>"a"</strong>: Tag para criar links.</p>
+                <p><strong>"href"</strong>: Especifica o destino do link.</p>
+                <p> <strong>"target"</strong>: Define onde abrir o link (por exemplo, _blank abre em uma nova aba).</p>
+                <p>Exemplo:(a href="https://www.example.com" target="_blank">Clique aqui para visitar o Example a)</p>  
+            </article>
+
+
+            <article> 
+                <h2>Listas enumeradas e não enumeradas</h2>
+                <p class="post-meta">Data: 05/02/2025 | Autora: Chrislley Emylly </p>
+                <p>Listas enumeradas e não enumeradas são elementos essenciais em HTML para organizar informações de maneira clara e estruturada. Listas enumeradas (ou numeradas) são criadas com a tag "ol" e são ideais para apresentar itens em uma sequência específica, como etapas de um procedimento. Já as listas não enumeradas são criadas com a tag "ul" e são usadas para listar itens que não precisam seguir uma ordem, como características de um produto ou tópicos de discussão.</p>
+                <p>Aprendemos a criar listas ordenadas (enumeradas) e não ordenadas (não enumeradas) utilizando HTML.</p>
+                <img src="li.png" alt="Exemplo de li">
+                <img src="lista.png" alt="Exemplo de listas enumeradas e não enumeradas">
+            </article>
+
+
+            <article>
+                <h2>Tabelas</h2>
+                <p class="post-meta">Data: 05/02/2025 | Autora: Chrislley Emylly </p>
+                <p>Tabelas são ferramentas poderosas para organizar e apresentar dados de maneira clara e concisa. Elas permitem comparar informações de forma visual e estruturada, facilitando a interpretação e análise dos dados. Além disso, o uso de tabelas pode tornar o conteúdo mais acessível e atraente para os leitores, especialmente quando há uma grande quantidade de informações a serem exibidas. Não se esqueça de utilizar títulos e cabeçalhos para melhorar a legibilidade e orientar os leitores sobre o conteúdo da tabela.</p>
+                <img src="tags.png" alt="Exemplo de tags">
+                <p>Estrutura básica de uma tabela HTML:</p>
+                <p>As tags que vão formar a estrutura básica de uma tabela em HTML são as tags "tr" e "td". A tag "tr" representa uma linha e a tag "td" representa uma célula. Desta forma, a criação de colunas em uma tabela HTML é feita automaticamente através da quantidade de células incluídas dentro de uma linha. Por exemplo, vejamos na imagem abaixo como essa estrutura é formada:</p>
+                <img src="tabela .png" alt="">
+            </article>
+
+
+            <article>
+                <h2>Formulário de Contato</h2>
+                <p class="post-meta">Data: 05/02/2025 | Autora: Chrislley Emylly</p>
+                <div class="card">
+                    <form>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message"></textarea><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </article>
+
+        </main>
+        <footer>
+            <p>&copy;Blog desenvolvido para a disciplina de HTML e CSS do Instituto Federal de Educação, Ciência e Tecnologia do Piauí.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

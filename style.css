@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4d097d80;
+    color: #3d3d3d;
+    margin: 0;
+    padding: 0;
+    line-height: 3.6;
+    text-align: justify;
+    }
+    
+    .container {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    }
+    
+    header {
+    background: #9c27b0;
+    color: white;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #673ab7 3px solid;
+    border-radius: 5px;
+    }
+    
+    header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+    }
+    
+    main {
+    background: #a113b47c;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+    
+    article {
+    margin-bottom: 20px;
+    border:  1px solid #673ab7;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f3cdf9;
+    }
+    
+    article h2 {
+    color: #9c27b0;
+    border-bottom: 2px solid #673ab7;
+    padding-bottom: 10px;
+    }
+    
+    .post-meta {
+    font-style: italic;
+    color: #888;
+    }
+    
+    footer {
+    background:  #9c27b0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+    
+    .card{
+        border: 1px solid #940bad5f;
+        padding: 20px;
+        background:  #f3e5f5;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card label {
+    display:block;
+    margin-bottom: 5px;
+    color: #9c27b0;
+    }
+     
+    .card input[type="text"],
+    .card input[type="email"],
+    .card textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    .card input[type="submit"] {
+        background: #7e57c2; 
+        color: white;
+        border: 0;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    
+    .card input[type="submit"]:hover {
+        background: #673ab7; 
+    }
+    
+    img {
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
